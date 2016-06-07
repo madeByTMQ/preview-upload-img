@@ -1,9 +1,7 @@
-# preview-upload-img
-Upload and Preview Image
 
-#start
-```javascript
+(function(window){
 
+var 
 imgContainer = document.getElementById('imgContainer'),
 input = document.getElementsByTagName('input')[0],
 
@@ -23,4 +21,6 @@ uploadFile.init({
 //dosomething
 
 //uploadFile.upload(otherFormVaule, name);
-```
+
+
+})(window)
